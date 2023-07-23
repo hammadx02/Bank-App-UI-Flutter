@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 import 'package:med_app_ui/screens/home_screen.dart';
 
 void main() {
@@ -15,8 +16,11 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+      ),
       home: HomeScreen(),
     );
   }
