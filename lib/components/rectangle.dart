@@ -45,7 +45,7 @@ class Rectangle extends StatelessWidget {
                         text: rectangleText,
                         style: const TextStyle(
                           color: themeColor,
-                          fontSize: 14,
+                          fontSize: 16,
                           fontFamily: 'Poppins Bold',
                         ),
                         children: [
@@ -53,7 +53,7 @@ class Rectangle extends StatelessWidget {
                             text: rectangleText2,
                             style: const TextStyle(
                                 fontFamily: 'Poppins Regular',
-                                fontSize: 10,
+                                fontSize: 12,
                                 color: themeColor),
                           ),
                         ],
@@ -62,7 +62,7 @@ class Rectangle extends StatelessWidget {
                   ],
                 ),
                 const SizedBox(
-                  width: 99,
+                  width: 85,
                 ),
                 Align(
                   alignment: Alignment.centerRight,

@@ -38,7 +38,7 @@ class Circle extends StatelessWidget {
                   size: 30,
                 ),
                 const SizedBox(
-                  height: 5,
+                  height: 3,
                 ),
                 Center(
                   child: Text(

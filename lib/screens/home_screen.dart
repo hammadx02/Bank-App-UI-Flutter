@@ -48,14 +48,14 @@ class _HomeScreenState extends State<HomeScreen> {
             title: Center(
               child: RichText(
                 text: const TextSpan(
-                  text: 'Medica',
+                  text: 'Easy',
                   style: TextStyle(
                       color: themeColor,
                       fontSize: 24,
                       fontFamily: 'Poppins Bold'),
                   children: [
                     TextSpan(
-                      text: ' Reminder',
+                      text: ' Transfer',
                       style: TextStyle(
                           fontFamily: 'Poppins Regular',
                           fontSize: 24,
@@ -173,17 +173,21 @@ class _HomeScreenState extends State<HomeScreen> {
                           width: 3,
                         ),
                         Circle(
-                            circleIcon: FontAwesomeIcons.solidClock,
-                            circleText: '      Med\nReminders'),
+                          circleIcon: Icons.attach_money_rounded,
+                          circleText: '  Add\nMoney',
+                        ),
                         Circle(
-                            circleIcon: FontAwesomeIcons.calendarCheck,
-                            circleText: 'Appointments'),
+                          circleIcon: Icons.money_off_csred_rounded,
+                          circleText: 'Withdraw',
+                        ),
                         Circle(
-                            circleIcon: FontAwesomeIcons.bookMedical,
-                            circleText: 'Medical\nRecords'),
+                          circleIcon: Icons.wallet,
+                          circleText: 'Save',
+                        ),
                         Circle(
-                            circleIcon: FontAwesomeIcons.peopleGroup,
-                            circleText: '   Patient\nCaretaker'),
+                          circleIcon: Icons.pie_chart_rounded,
+                          circleText: 'Invest',
+                        ),
                       ],
                     ),
                   ),
@@ -210,28 +214,25 @@ class _HomeScreenState extends State<HomeScreen> {
                   child: const Column(
                     children: [
                       Rectangle(
-                        rectangleIcon: FontAwesomeIcons.notesMedical,
-                        rectangleText: 'Diary',
+                        rectangleIcon: Icons.payment_rounded,
+                        rectangleText: 'Online Payments',
                         rectangleText2:
-                            '\nHere you can create your         \npersonalized notes',
+                            '\nPayments                                 ',
                       ),
                       Rectangle(
-                        rectangleIcon: FontAwesomeIcons.copy,
-                        rectangleText: 'Patient\'s View',
-                        rectangleText2:
-                            '\nHere you can view                      \npatient\'s data',
+                        rectangleIcon: Icons.cast_for_education_rounded,
+                        rectangleText: 'Education',
+                        rectangleText2: '\nPay Education Fee                  ',
                       ),
                       Rectangle(
-                        rectangleIcon: FontAwesomeIcons.kitMedical,
-                        rectangleText: 'First Aid Treatment',
-                        rectangleText2:
-                            '\nHere you can find information \nabout first aid treatment',
+                        rectangleIcon: Icons.percent_rounded,
+                        rectangleText: 'Discounts',
+                        rectangleText2: '\nAvail exciting Discounts        ',
                       ),
                       Rectangle(
-                        rectangleIcon: FontAwesomeIcons.heartPulse,
-                        rectangleText: 'Complications',
-                        rectangleText2:
-                            '\nHere you can view information\nabout disease complications',
+                        rectangleIcon: Icons.savings_outlined,
+                        rectangleText: 'Savings',
+                        rectangleText2: '\nEarn profit everyday!             ',
                       ),
                     ],
                   ),
