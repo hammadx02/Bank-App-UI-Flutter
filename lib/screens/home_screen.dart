@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:med_app_ui/components/circle.dart';
-import 'package:med_app_ui/components/rectangle.dart';
+import 'package:bank_app_ui/components/circle.dart';
+import 'package:bank_app_ui/components/rectangle.dart';
 
 import '../constents/constents.dart';
 
