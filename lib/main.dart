@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:med_app_ui/screens/home_screen.dart';
+import 'package:bank_app_ui/screens/home_screen.dart';
 
 void main() {
   runApp(const MyApp());

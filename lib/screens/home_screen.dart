@@ -216,23 +216,22 @@ class _HomeScreenState extends State<HomeScreen> {
                       Rectangle(
                         rectangleIcon: Icons.payment_rounded,
                         rectangleText: 'Online Payments',
-                        rectangleText2:
-                            '\nPayments                                 ',
+                        rectangleText2: '\nPayments',
                       ),
                       Rectangle(
                         rectangleIcon: Icons.cast_for_education_rounded,
                         rectangleText: 'Education',
-                        rectangleText2: '\nPay Education Fee                  ',
+                        rectangleText2: '\nPay Education Fee',
                       ),
                       Rectangle(
                         rectangleIcon: Icons.percent_rounded,
                         rectangleText: 'Discounts',
-                        rectangleText2: '\nAvail exciting Discounts        ',
+                        rectangleText2: '\nAvail exciting Discounts',
                       ),
                       Rectangle(
                         rectangleIcon: Icons.savings_outlined,
                         rectangleText: 'Savings',
-                        rectangleText2: '\nEarn profit everyday!             ',
+                        rectangleText2: '\nEarn profit everyday!',
                       ),
                     ],
                   ),

@@ -35,6 +35,7 @@ class Rectangle extends StatelessWidget {
           child: Padding(
             padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
             child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Column(
                   mainAxisAlignment: MainAxisAlignment.start,
@@ -64,17 +65,16 @@ class Rectangle extends StatelessWidget {
                 const SizedBox(
                   width: 85,
                 ),
-                Align(
-                  alignment: Alignment.centerRight,
-                  child: Row(
-                    children: [
-                      Icon(
-                        rectangleIcon,
-                        color: themeColor,
-                        size: 30,
-                      ),
-                    ],
-                  ),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  children: [
+                    Icon(
+                      rectangleIcon,
+                      color: themeColor,
+                      size: 30,
+                    ),
+                  ],
                 ),
               ],
             ),
