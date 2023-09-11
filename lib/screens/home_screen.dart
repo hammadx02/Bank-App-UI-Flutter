@@ -57,9 +57,10 @@ class _HomeScreenState extends State<HomeScreen> {
                     TextSpan(
                       text: ' Transfer',
                       style: TextStyle(
-                          fontFamily: 'Poppins Regular',
-                          fontSize: 24,
-                          color: themeColor),
+                        fontFamily: 'Poppins Regular',
+                        fontSize: 24,
+                        color: themeColor,
+                      ),
                     ),
                   ],
                 ),
@@ -75,20 +76,24 @@ class _HomeScreenState extends State<HomeScreen> {
                   height: 180,
                   width: double.infinity,
                   decoration: BoxDecoration(
-                      boxShadow: [
-                        BoxShadow(
-                          color: Colors.black.withOpacity(0.1),
-                          spreadRadius: 2,
-                          blurRadius: 5,
-                          offset: const Offset(1, 3),
-                        ),
-                      ],
-                      shape: BoxShape.rectangle,
-                      borderRadius: BorderRadius.circular(30),
-                      color: themeColor),
+                    boxShadow: [
+                      BoxShadow(
+                        color: Colors.black.withOpacity(0.1),
+                        spreadRadius: 2,
+                        blurRadius: 5,
+                        offset: const Offset(1, 3),
+                      ),
+                    ],
+                    shape: BoxShape.rectangle,
+                    borderRadius: BorderRadius.circular(30),
+                    color: themeColor,
+                  ),
                   child: Padding(
-                    padding:
-                        const EdgeInsets.only(left: 30.0, top: 30, bottom: 15),
+                    padding: const EdgeInsets.only(
+                      left: 30.0,
+                      top: 30,
+                      bottom: 15,
+                    ),
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.start,
                       crossAxisAlignment: CrossAxisAlignment.start,
@@ -104,9 +109,10 @@ class _HomeScreenState extends State<HomeScreen> {
                               TextSpan(
                                 text: 'Hammad Ali.',
                                 style: TextStyle(
-                                    fontFamily: 'Poppins Regular',
-                                    fontSize: 18,
-                                    color: Colors.white),
+                                  fontFamily: 'Poppins Regular',
+                                  fontSize: 18,
+                                  color: Colors.white,
+                                ),
                               ),
                             ],
                           ),
@@ -122,15 +128,17 @@ class _HomeScreenState extends State<HomeScreen> {
                               ),
                               hintText: 'Search',
                               hintStyle: const TextStyle(
-                                  color: Colors.grey,
-                                  fontSize: 16,
-                                  fontFamily: 'Poppins Regular'),
+                                color: Colors.grey,
+                                fontSize: 16,
+                                fontFamily: 'Poppins Regular',
+                              ),
                               fillColor: Colors.white,
                               filled: true,
                               focusedBorder: OutlineInputBorder(
                                 borderRadius: BorderRadius.circular(15),
-                                borderSide:
-                                    const BorderSide(color: Colors.black),
+                                borderSide: const BorderSide(
+                                  color: Colors.black,
+                                ),
                               ),
                               enabledBorder: OutlineInputBorder(
                                 borderSide:
